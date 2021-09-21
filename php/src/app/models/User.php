@@ -11,6 +11,8 @@ class User extends Model
 
     private $connection;
     public $id;
+    // TODO: assert email is unique
+    // TODO: validate submitted is email
     public $email;
 
     public function __construct(DatabaseInterface $database)

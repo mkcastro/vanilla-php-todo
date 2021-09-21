@@ -5,7 +5,7 @@ declare(strict_types = 1);
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET');
 
-require_once realpath('./vendor/autoload.php');
+require_once realpath('../vendor/autoload.php');
 
 use MyApp\Models\User;
 use MyApp\Models\PDODatabase;

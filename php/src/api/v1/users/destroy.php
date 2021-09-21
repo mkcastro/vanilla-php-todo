@@ -30,7 +30,7 @@ if (! $user->exists()) {
 
 if (! $user->destroy()) {
     echo json_encode(
-        array('message' => 'Category not deleted')
+        array('message' => 'User not deleted')
     );
 
     return;

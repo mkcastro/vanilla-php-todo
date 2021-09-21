@@ -24,11 +24,11 @@ $user->email = $data->email;
 
 if (! $user->update()) {
     echo json_encode(
-        array('message' => 'Category not updated')
+        array('message' => 'User not updated')
     );
     return;
 }
 
 echo json_encode(
-    array('message' => 'Category Updated')
+    array('message' => 'User Updated')
 );
